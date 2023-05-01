@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "SwiftBar Plugins",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+	},
+	"extensions": {
+		"recommendations": [
+			"mosapride.zenkaku",
+			"christian-kohler.path-intellisense",
+			"shopify.ruby-extensions-pack",
+		]
+	}
+}

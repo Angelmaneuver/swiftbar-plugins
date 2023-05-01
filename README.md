@@ -1,2 +1,2 @@
-# swiftbar-plugins
-Plugin repository for Swift Bar.
+# SwiftBar Plugins
+This repository contains scripts, that add functionary to SwiftBar.
