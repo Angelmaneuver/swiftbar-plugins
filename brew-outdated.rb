@@ -29,4 +29,6 @@ if not 0 == stdouts[:outdated].length
   puts "#{TITLE}"
 
   updates.each { |package| puts "#{package}" }
+else
+  puts ":gear.badge.checkmark:"
 end
