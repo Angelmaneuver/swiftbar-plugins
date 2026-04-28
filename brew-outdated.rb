@@ -13,7 +13,7 @@
 # <swiftbar.schedule>*/30 * * * *</swiftbar.schedule>
 
 COMMAND = { update: "brew update", outdated: "brew outdated -v" }
-TITLE = "更新パッケージ"
+TITLE = { outdated: "更新パッケージ", none: "全て最新" }
 
 stdouts = {}
 
@@ -26,9 +26,11 @@ if not 0 == stdouts[:outdated].length
 
   puts ":gear.badge:"
   puts "---"
-  puts "#{TITLE}"
+  puts "#{TITLE[:outdated]}"
 
   updates.each { |package| puts "#{package}" }
 else
   puts ":gear.badge.checkmark:"
+  puts "---"
+  puts "#{TITLE[:none]}"
 end
