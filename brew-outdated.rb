@@ -10,7 +10,7 @@
 # <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
 # <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
 # <swiftbar.hideSwiftBar>true</swiftbar.hideSwiftBar>
-# <swiftbar.schedule>*/30,* * * *</swiftbar.schedule>
+# <swiftbar.schedule>*/30 * * * *</swiftbar.schedule>
 
 COMMAND = { update: "brew update", outdated: "brew outdated -v" }
 TITLE = "更新パッケージ"

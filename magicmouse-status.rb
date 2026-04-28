@@ -10,7 +10,7 @@
 # <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
 # <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
 # <swiftbar.hideSwiftBar>true</swiftbar.hideSwiftBar>
-# <swiftbar.schedule>*/5,* * * *</swiftbar.schedule>
+# <swiftbar.schedule>*/5 * * * *</swiftbar.schedule>
 
 DEVICE_NAME = "Magic Mouse"
 THRESHOLDS = {
